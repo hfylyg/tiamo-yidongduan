@@ -1,0 +1,618 @@
+
+/* @Author: Administrator
+* @Date:   2017-10-10 09:56:56
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 11:59:47
+*/
+@import url('base.css');
+
+
+header{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #f32d2d;
+	position: fixed;
+	top :0;
+	left: 0;
+	z-index: 1000;
+}
+.hanbao{
+	width: 18.75%;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	cursor: pointer;
+}
+.hanbao img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.search{
+	width: 62.5%;
+	height: 0.65rem;
+	background-color: #fee9e9;
+	float: left;
+	margin-top: 0.1rem;
+	border-radius: 5px;
+}
+ .sousuokuang{
+	display: block;
+	width: 80%;
+	height: 0.65rem;
+	background: #fee9e9;
+	float: left;
+	padding-left: 0.1rem;
+	border: 0;
+	border-radius: 5px;
+
+}
+.sousuokuang:focus{
+	outline: none;
+}
+.sousuopic{
+	float: left;
+	width: 16%;
+	height: 0.65rem;
+	background: url('../img/sousuo.png') no-repeat center center; 
+	background-size: 0.66rem 0.64rem;
+	border: 0;
+}
+/* .sousuopic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+} */
+.denglu{
+	width: 18.75%;
+	height: 100%; 
+	float: right;
+}
+.denglu a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 0.88rem;
+	text-align: center;
+}
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.22rem;
+	background: red;
+	overflow: hidden;
+	margin-top: 0.88rem;
+	position: relative;
+	
+}
+.bannerpic{
+	width: 100%;
+	height: 2.22rem;
+	position: relative;
+}
+.bannerpic li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.bannerpic li a,.bannerpic li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list-btn {
+	width: 1rem;
+	height: 0.08rem;
+	position: absolute;
+	bottom: 0.16rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.list-btn li{
+	width: 0.05rem;
+	height: 0.05rem;
+	border: 0.02rem solid #7b7a7d;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.06rem;
+}
+
+
+/* banner结束 */
+
+/* 列表单 */
+.navList{
+	width: 100%;
+	height: auto;
+
+	overflow: hidden;	
+	
+}
+.list li{
+	width: 20%;
+	height: auto;
+	padding-top:  0.15rem;
+
+	float: left;
+}
+.navimg{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	
+	margin: 0 auto;
+}
+.navimg img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.navtext{
+	display: block;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #000;
+	margin-top: 0.1rem;
+}
+/* 列表结束 */
+
+/* 轮播开始 */
+.lunbo,.lunbopic{
+	width: 3.5rem;
+	height: 2.1rem;
+	
+}
+.lunbopic li a, .lunbopic li a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.lunbopic li{
+	/* float: left; */
+	border-top: 0.08rem solid #f5f5f5;
+	border-left: 0.1rem solid #f5f5f5;
+	/* margin-top: 0.08rem;
+	margin-left: 0.1rem; */
+	
+}
+
+
+
+/* 轮播结束 */
+
+
+/* 必抢开始 */
+.biqiang{
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+}
+.biqiang-top{
+	width: 100%;
+	height: auto;
+	
+}
+.biqiang-title{
+	width: 42%;
+	height: 0.62rem;
+	
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.biqiang-title-left{
+	float: left;
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #ff2e2e;
+	margin-top: 0.3rem;
+}
+
+.biqiang-title-name{
+	float: left;
+	width: 1.28rem;
+	height: 100%;
+	
+}
+.biqiang-title-name img{
+	display: block;
+	width: 0.24rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.2rem;
+}
+.biqiang-title-name a{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	text-align: center;
+	color:#ff2e2e;
+	margin-left: 0.1rem;
+	margin-top: 0.15rem;
+
+}
+
+.biqiang-title-right{
+	float: right;
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #ff2e2e;
+	margin-top: 0.3rem;
+}
+
+
+.biqiang-content,.biqiang-list{
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+}
+.biqiang-list li{
+	width: 25%;
+	height: 2.55rem;
+	background: #fff;
+	float: left;
+}
+.biqiang-list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.biqiang-list-name{
+	font-size: 0.24rem;
+	color: #2f2f2f;
+	text-align: center;
+	margin-top: 0.14rem;
+}
+.biqiang-list img{
+	display: block;
+	width: 1.60rem;
+	height: 1.60rem;
+	background: red;
+}
+.biqiang-list-price{
+	width: 100%;
+	/* height: 0.18rem; */
+	background: yellow;
+}
+.price-left{
+	width: 50%;
+	font-size: 0.24rem;
+	color: #ff2e2e;
+	text-align: right;
+	float:left;
+}
+.price-right{
+	width: 48%;
+	font-size: 0.24rem;
+	color: #b49b9b;
+	text-decoration: line-through;
+	text-align: left;
+	padding-left: 2%;
+	float:right;
+}
+.biqiang li{
+	border-bottom: 0.01rem solid #f5f5f5;
+	box-sizing: border-box;
+}
+.biqiang li:last-child{
+	border-left:0.01rem solid #f5f5f5 ;
+
+}
+/* 必抢结束 */
+
+
+/* 潮流酷玩 */
+.kuwan{
+	width: 100%;
+	
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.kuwan-top{
+	width: 100%;
+	height: auto;
+	
+}
+.kuwan-title{
+	width: 50%;
+	height: 0.62rem;
+	
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.kuwan-title-left{
+	float: left;
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #518ee8;
+	margin-top: 0.3rem;
+}
+
+.kuwan-title-name{
+	float: left;
+	width: 1.84rem;
+	height: 100%;
+	
+}
+.kuwan-title-name img{
+	display: block;
+	width: 0.24rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.2rem;
+}
+.kuwan-title-name a{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color:#518ee8;
+	margin-left: 0.1rem;
+	margin-top: 0.15rem;
+
+}
+
+.kuwan-title-right{
+	float: right;
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #518ee8;
+	margin-top: 0.3rem;
+}
+
+.kuwanpic{
+	width: 100%;
+	height: auto;
+	background: red;
+}
+.kuwan-img{
+	width: 33.33%;
+	height: auto;
+	float: left;
+}
+.kuwan-img a,.kuwan-img a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 潮流酷玩结束 */
+
+
+
+
+/* 品牌特卖开始 */
+.pinpai{
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+}
+.pinpai-top{
+	width: 100%;
+	height: auto;
+	
+}
+.pinpai-title{
+	width: 50%;
+	height: 0.62rem;
+	
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.pinpai-title-left{
+	float: left;
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #f99c00;
+	margin-top: 0.3rem;
+}
+
+.pinpai-title-name{
+	float: left;
+	width: 1.84rem;
+	height: 100%;
+	
+}
+.pinpai-title-name img{
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.2rem;
+}
+.pinpai-title-name a{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color:#f99c00;
+	margin-left: 0.1rem;
+	margin-top: 0.15rem;
+
+}
+.pinpai-title-right{
+	float: right;
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color:#f99c00;
+	margin-top: 0.3rem;
+}
+.pinpailist{
+	width: 100%;
+	height: auto;
+}
+.pinpailist li{
+	width: 50%;
+	height: 1.88rem;
+	background: yellow;
+	float: left;
+}
+.pinpailist li:first-child{
+	border-right: 0.02rem solid #f5f5f5;
+	box-sizing:border-box;
+}
+.pinpailist li a,.pinpailist li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ /* 品牌特卖结束 */
+
+
+ /* 猜你喜欢 */
+.youlike{
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+	
+}
+
+ .youlike-top{
+	width: 100%;
+	height: auto;
+	
+}
+.youlike-title{
+	width: 2rem;
+	height: 0.62rem;
+	
+	margin: 0 auto;
+	
+}
+.youlike-title-left{
+	float: left;
+	width: 0.3rem;
+	height: 0.02rem;
+	background-color: #999999;
+	margin-top: 0.3rem;
+}
+
+.youlike-title-name{
+	float: left;
+	width: 1.2rem;
+	height: 100%;
+	
+}
+
+.youlike-title-name a{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color:#999999;
+	margin:auto 0.12rem;
+	margin-top: 0.15rem;
+
+}
+
+.youlike-title-right{
+	float: right;
+	width: 0.3rem;
+	height: 0.02rem;
+	background-color: #999999;
+	margin-top: 0.3rem;
+}
+
+.youlike-list{
+	width: 100%;
+	height: auto;
+}
+.youlike-list li{
+	width: 50%;
+	height: 4.55rem;
+	float: left;
+}
+.youlike-list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.youlike-list li a img{
+	width: 3.17rem;
+	width: 3.17rem;
+}
+.youlike-word{
+	width: 90%;
+	height:auto;
+	font-size: 0.24rem;
+	color: #666666;
+	margin-top: 0.04rem;
+	padding: 0 5%;
+	
+}
+.youlike-price{
+	width: 90%;
+	font-size: 0.24rem;
+	color: red;
+	padding:0.1rem 5% ;
+}
+.youlike-list li{
+	border-right: 0.02rem solid #f5f5f5;
+	border-bottom: 0.02rem solid #f5f5f5;
+	box-sizing: border-box;
+}
+.youlike-list li:last-child{
+	border-right:0;
+	
+}
+
+/* 猜你喜欢结束 */
+
+/* footer */
+footer{
+	width: 100%;
+	height: 2.06rem;
+	border-top: 0.04rem solid #000;
+	background: #ffffff;
+	overflow: hidden;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.footer-list{
+	
+	height: 0.24rem;
+	
+	padding-top: 0.44rem;
+	padding-bottom: 0.1rem;
+	overflow: hidden;
+
+	
+}
+.footer-list li{
+	height:  0.24rem;
+	float: left;
+	padding: 0 0.2rem;
+	border-right: 0.02rem solid #b29999;
+	
+}
+.footer-list li a{
+	display: block;
+	font-size: 0.22rem;
+	color: #b29999;
+	
+
+}
+.footer-list li:last-child{
+	border-right: 0;
+}
+.banquan{
+	width: 100%;
+	font-size: 0.24rem;
+	color: #cccccc;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+
+
+
+
